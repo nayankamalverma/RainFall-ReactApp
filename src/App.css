@@ -1,0 +1,17 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #111;
+  background-color: black;
+  transition: background-color 0.2s linear;
+}
