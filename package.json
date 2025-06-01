@@ -1,6 +1,6 @@
 {
-  "name": "rainfall_effect",
-  "homepage": "https://nayankamalverma.github.io/RainFall-ReactApp/",
+  "name": "RainFall-ReactApp",
+  "homepage": "https://nayankamalverma.github.io/RainFall-ReactApp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
