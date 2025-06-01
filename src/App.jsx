@@ -79,7 +79,8 @@ const App = () => {
   }, [speed, isRaining, rows, cols]);
 
   return (
-    <Container maxWidth="md" sx={{ py: 4 }}>
+    <div className="App" >
+    <Container maxWidth="md" sx={{ py: 8 }}>
       <CssBaseline />
       <Paper
         elevation={4}
@@ -104,7 +105,7 @@ const App = () => {
               value={speed}
               onChange={(e, val) => setSpeed(val)}
               min={20}
-              max={1000}
+              max={700}
               step={20}
             />
           </Box>
@@ -115,7 +116,7 @@ const App = () => {
               value={rows}
               onChange={(e, val) => setRows(val)}
               min={10}
-              max={40}
+              max={30}
             />
           </Box>
 
@@ -125,7 +126,7 @@ const App = () => {
               value={cols}
               onChange={(e, val) => setCols(val)}
               min={10}
-              max={60}
+              max={40}
             />
           </Box>
         </Box>
@@ -151,6 +152,7 @@ const App = () => {
         </div>
       </Paper>
     </Container>
+    </div>
   );
 };
 
